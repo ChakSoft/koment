@@ -21,4 +21,5 @@ Model.knex(knex)
 module.exports = {
     Comment : require('./comment'),
     Domain : require('./domain'),
+    Page : require('./page'),
 }

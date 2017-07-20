@@ -8,8 +8,6 @@ const Server = require('../index')
 Chai.use(ChaiHTTP)
 
 describe('Domain Tests', () => {
-    before((done) => {
-    })
     it('Create a new domain', (done) => {
         Chai.request(Server)
             .post('/domain')
@@ -90,7 +88,5 @@ describe('Domain Tests', () => {
                 done()
             })
             .catch((err) => done(err))
-    })
-    after((done) => {
     })
 })
