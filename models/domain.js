@@ -4,7 +4,7 @@ const { Model } = require('objection')
 
 class DomainModel extends Model {
     static get tableName() {
-        return 'domain'
+        return 'domains'
     }
 }
 

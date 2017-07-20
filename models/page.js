@@ -2,10 +2,10 @@
 
 const { Model } = require('objection')
 
-class CommentModel extends Model {
+class PageModel extends Model {
     static get tableName() {
-        return 'comments'
+        return 'pages'
     }
 }
 
-module.exports = CommentModel
+module.exports = PageModel
