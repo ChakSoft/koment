@@ -1,0 +1,7 @@
+port: 8995
+database:
+  host: '192.168.111.128'
+  port: 3306
+  user: 'koment'
+  pass: 'koment'
+  name: 'koment'

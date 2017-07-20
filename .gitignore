@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+.ssh
+config/config.dist.yml
+ecosystem.config.js
